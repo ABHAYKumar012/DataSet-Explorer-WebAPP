@@ -11,9 +11,9 @@ matplotlib.use('Agg')
 import seaborn as sns 
 
 def main():
-	""" Common ML Dataset Explorer """
-	st.title("Common ML Dataset Explorer")
-	st.subheader("Datasets For ML Explorer with Streamlit")
+	""" Dataset Explorer """
+	st.title("Dataset Explorer")
+	st.subheader("Datasets Explorer with Streamlit")
 
 	
 	def file_selector(folder_path='./datasets'):
@@ -144,10 +144,10 @@ def main():
 		st.balloons()
 
 	st.sidebar.header("About App")
-	st.sidebar.info("A Simple EDA App for Exploring Common ML Dataset")
+	st.sidebar.info("A Simple EDA App Exploring  Dataset")
 
 	st.sidebar.header("Get Datasets")
-	st.sidebar.markdown("[Common ML Dataset Repo]("")")
+	st.sidebar.markdown("[Dataset Repo]("")")
 
 
 
